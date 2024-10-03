@@ -1,5 +1,4 @@
 #include "index_last_zero.h"
-#include <stdio.h>
 
 int index_last_zero(int arr[], int len) {
     for (int i = len - 1; i >= 0; i--) {
